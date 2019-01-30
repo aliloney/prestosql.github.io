@@ -122,7 +122,7 @@ div.content ul > li {
 }
 
 .homehero .button {
-  background: #00cccc;
+  background: #44af5c;
   color: #fff;
   display: inline-block;
   font-weight: 900;
@@ -135,10 +135,10 @@ div.content ul > li {
   min-width: 150px; }
 
 .homehero .button:hover {
-  background: #009999; }
+  background: #299642; }
 
 a.button {
-  background: #00cccc;
+  background: #44af5c;
   color: #fff;
   display: inline-block;
   font-size: 14px;
@@ -152,7 +152,7 @@ a.button {
   min-width: 150px; }
 
 a.button:hover {
-  background: #009999; }
+  background: #299642; }
 
 a.button img {
   float:left;
@@ -236,7 +236,7 @@ div.admonition {
 }
 
 div.note {
-    background-color: #f5f5ff
+    background-color: #f5f5ff;
 }
 
 tt, code {
@@ -307,7 +307,7 @@ footer .copyright {
   margin: 0 2px; }
 
 .topbar .nav li a:hover, .topbar .nav li a.active {
-  border-bottom:4px solid #00cccc; }
+  border-bottom:4px solid #44af5c; }
 
 .fb-like {
     top: 4px;
