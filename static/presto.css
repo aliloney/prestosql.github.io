@@ -41,18 +41,13 @@ p {
 
 /* -- LINKS -- */
 
-a:link {
+a:link, a:visited {
   font-weight: bold;
   text-decoration: none;
   color: #00cccc; }
 
-a:visited {
-  font-weight: bold;
-  text-decoration: none;
-  color: #009999; }
-
 a:hover, a:active {
-  text-decoration: underline;
+  text-decoration: none;
   color: #009999; }
 
 /* -- IMAGES -- */
@@ -146,6 +141,7 @@ a.button {
   background: #00cccc;
   color: #fff;
   display: inline-block;
+  font-size: 14px;
   font-weight: 900;
   letter-spacing: 0em;
   text-decoration: none;
@@ -157,6 +153,11 @@ a.button {
 
 a.button:hover {
   background: #009999; }
+
+a.button img {
+  float:left;
+  height:20px;
+  padding-right:10px; }
 
 .nav .right {
   float: right;
@@ -251,6 +252,20 @@ code {
     border-radius: 3px;
 }
 
+.footer {
+  padding: 32px 0 48px 0;
+  background-color: #f3f3f3;
+  border-top: 1px solid white;
+  margin-top: 50px; }
+
+.text-center {
+  text-align: center;
+  display: inline-block; }
+
+footer .copyright {
+  color: #666;
+  font-size: 0.9em; }
+
 /* mobile first */
 
 .width {
@@ -287,10 +302,12 @@ code {
 }
 
 .topbar .nav li a {
-    color: #fff;
-    font-size: 12px;
-    margin: 0 2px;
-}
+  color: #fff;
+  font-size: 12px;
+  margin: 0 2px; }
+
+.topbar .nav li a:hover, .topbar .nav li a.active {
+  border-bottom:4px solid #00cccc; }
 
 .fb-like {
     top: 4px;
@@ -298,9 +315,9 @@ code {
 }
 
 .item {
-    background-color: #dddddd;
+    background-color: #fcfcfc;
     padding: 15px;
-    border: 1px solid black;
+    border: 1px solid #eaeaea;
     margin-bottom: 30px;
 }
 
@@ -343,8 +360,8 @@ ol > li > ol > li > ol {
   max-width: 928px;
   grid-template-columns: repeat(1, 1fr);
   grid-column-gap: 40px;
-  grid-row-gap: 20px;
-  padding-top: 40px; }
+  grid-row-gap: 40px;
+  padding-top: 60px; }
 
 .feature-title {
   color: #5a92f5;
@@ -437,8 +454,8 @@ ol > li > ol > li > ol {
         max-width: 928px;
         grid-template-columns: repeat(3, 1fr);
         grid-column-gap: 40px;
-        grid-row-gap: 20px;
-        padding-top: 40px;
+        grid-row-gap: 40px;
+        padding-top: 60px;
     }
 
     .leftcol, .rightcol {
