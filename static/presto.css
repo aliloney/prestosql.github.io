@@ -44,11 +44,11 @@ p {
 a:link, a:visited {
   font-weight: bold;
   text-decoration: none;
-  color: #00cccc; }
+  color: #44af5c; }
 
 a:hover, a:active {
   text-decoration: none;
-  color: #009999; }
+  color: #299642; }
 
 /* -- IMAGES -- */
 
